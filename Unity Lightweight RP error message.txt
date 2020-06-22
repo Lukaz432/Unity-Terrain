@@ -1,0 +1,18 @@
+Error message (not in the currently confirmed Unity Bugs' list):
+
+package has invalid dependencies: com.unity.render-pipelines.core: Resolved version [7.3.1] does not satisfy requested version [7.4.1] com.unity.shadergraph: Resolved version [7.3.1] does not satisfy requested version [7.4.1]
+
+Reproduction:
+
+In Unity -> Window -> Package Manager -> Lightweight RP - Install (Universal RP installs automatically right after, causing the error message).
+
+Versions:
+
+Unity 2019.4.0f1
+Lightweight RP 7.4.1
+Universal RP 7.3.1
+
+UPDATE: after a couple of hours Universal RP got updated to 7.4.1 resolving the issue regarding the error message.
+
+
+
